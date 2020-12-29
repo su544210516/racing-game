@@ -107,7 +107,7 @@
                 {
                     "name": "",
                     "id": "b1c8ac98-f420-4449-b86b-b95ec78c2201",
-                    "path": "<HID::Logitech G29 Driving Force Racing Wheel>/stick/down",
+                    "path": "<HID::Logitech G29 Driving Force Racing Wheel>/button12",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -353,6 +353,158 @@
                     "processors": "",
                     "groups": "",
                     "action": "ZoomChange",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "VR",
+            "id": "0d55a047-caff-4464-b710-13cd6058372c",
+            "actions": [
+                {
+                    "name": "ResetCamera",
+                    "type": "Button",
+                    "id": "af7f8540-1323-486c-8fc6-7ce261572d6d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MoveUp",
+                    "type": "Button",
+                    "id": "72e21e20-029d-4df9-a169-af2367c3b983",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MoveDown",
+                    "type": "Button",
+                    "id": "268d9b96-9a61-4299-99ee-674cb192cabb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MoveLeft",
+                    "type": "Button",
+                    "id": "c4f5f9ac-5fcb-4adc-a817-615706950c63",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MoveRight",
+                    "type": "Button",
+                    "id": "02789810-339b-42f5-8a65-4351b7ce7497",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MoveForward",
+                    "type": "Button",
+                    "id": "fc56b879-e15b-4866-a7e6-d3f643f22c80",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MoveBack",
+                    "type": "Button",
+                    "id": "e7fc1b6d-0a07-40a2-9276-d00c7929c780",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1612ffe6-e423-4f56-965d-5039ed7bfe6f",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ResetCamera",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1ee64178-1829-46b1-8898-19995729e1e8",
+                    "path": "<Joystick>/stick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ResetCamera",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e37b9d85-e70e-4d9e-8e03-4bea17703f1b",
+                    "path": "<HID::Logitech G29 Driving Force Racing Wheel>/hat/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "57eb68b9-2405-466f-90ba-42736d4a31a7",
+                    "path": "<HID::Logitech G29 Driving Force Racing Wheel>/hat/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9b17ae24-93d8-4a98-9258-8324d28f79f9",
+                    "path": "<HID::Logitech G29 Driving Force Racing Wheel>/hat/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1fca4594-f9ad-491a-862d-fc688dd33129",
+                    "path": "<HID::Logitech G29 Driving Force Racing Wheel>/hat/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2547bdc7-c105-42b9-b943-574e6a8120b7",
+                    "path": "<HID::Logitech G29 Driving Force Racing Wheel>/button20",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveForward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3729b894-b6b1-4f34-9cf4-2cf18bc86942",
+                    "path": "<HID::Logitech G29 Driving Force Racing Wheel>/button21",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveBack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
